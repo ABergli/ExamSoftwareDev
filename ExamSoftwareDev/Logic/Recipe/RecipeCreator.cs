@@ -1,4 +1,6 @@
-﻿
+﻿using ExamSoftwareDev.Logic.Ingredient;
+
+
 namespace ExamSoftwareDev.Logic.Recipe {
     internal class CreateRecipeService
     {
