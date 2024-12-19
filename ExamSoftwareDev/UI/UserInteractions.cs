@@ -96,11 +96,7 @@ namespace ExamSoftwareDesign.UI {
                         break;
                 }
             }
-        }
+        }//run
 
-        private string GetInput(string prompt) {
-            p.print(prompt);
-            return Console.ReadLine();
-        }
     }
 }

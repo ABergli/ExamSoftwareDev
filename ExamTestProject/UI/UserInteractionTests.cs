@@ -86,7 +86,7 @@ namespace ExamTestProject.UI.Tests {
             var task = System.Threading.Tasks.Task.Run(() => _userInteractions.Run());
 
             // Act
-            if (!task.Wait(1000)) {  // Timeout after 5 seconds
+            if (!task.Wait(100)) {  // Timeout after delay
                 cancellationTokenSource.Cancel();
                 Assert.Fail("Test timed out before Run() completed.");
             }

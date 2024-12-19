@@ -8,14 +8,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Storage\Data\load_ingredients.csv" />
     <None Remove="Storage\Data\recipes_bbc.json" />
   </ItemGroup>
 
   <ItemGroup>
-    <Content Include="Storage\Data\load_ingredients.csv">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
     <Content Include="Storage\Data\recipes_bbc.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>

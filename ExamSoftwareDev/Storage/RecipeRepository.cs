@@ -13,8 +13,7 @@ namespace ExamSoftwareDesign.Storage {
             filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Storage", "Data", "recipes_bbc.json");
         }
 
-        // Load recipes
-        public List<Recipe> LoadRecipes()
+        public List<Recipe> LoadRecipes() // Load recipes
         {
             try
             {
@@ -31,8 +30,7 @@ namespace ExamSoftwareDesign.Storage {
             }
         }
 
-        // Save recipes
-        public void SaveRecipes(List<Recipe> recipes)
+        public void SaveRecipes(List<Recipe> recipes) // Save recipes
         {
             try
             {
