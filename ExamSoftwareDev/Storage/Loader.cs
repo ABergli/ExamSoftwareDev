@@ -1,9 +1,9 @@
 ﻿using System.Text.Json;
-using ExamSoftwareDesign.Logic.IngredientLogic;
-using ExamSoftwareDesign.Logic.RecipeServices;
-using ExamSoftwareDesign.UI;
+using ExamSoftwareDev.Logic.Ingredient;
+using ExamSoftwareDev.Logic.Recipe;
+using ExamSoftwareDev.UI;
 
-namespace ExamSoftwareDesign.Storage {
+namespace ExamSoftwareDev.Storage {
     internal class Loader {
         ExPrint p = new();
 

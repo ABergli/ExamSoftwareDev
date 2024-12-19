@@ -1,9 +1,8 @@
-﻿using ExamSoftwareDesign.Logic.IngredientLogic;
+﻿using ExamSoftwareDev.Logic.Ingredient;
 using Microsoft.EntityFrameworkCore;
-using System.Collections.Generic;
-using System.Linq;
 
-namespace ExamSoftwareDesign.Storage {
+
+namespace ExamSoftwareDev.Storage {
     public class IngredientRepository {
 
         private readonly IngredientContext _context;

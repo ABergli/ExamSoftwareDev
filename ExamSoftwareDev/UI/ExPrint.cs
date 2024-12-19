@@ -4,12 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ExamSoftwareDesign.UI {
+namespace ExamSoftwareDev.UI {
     public class ExPrint {
-
         public virtual void print(string txt, string c = "Gray") {
-            switch (c)
-            {
+            switch (c) {
                 case "red":
                     Console.ForegroundColor = ConsoleColor.Red;
                     break;
@@ -37,8 +35,7 @@ namespace ExamSoftwareDesign.UI {
 
         public void log(int type, string txt, string c = "Gray") {
             // type: 0=normal print, 1= test, 2= warning?
-            switch(type)
-            {
+            switch(type) {
                 case 0:
                     Console.ForegroundColor = ConsoleColor.Gray;
                     Console.Write(txt);
@@ -52,8 +49,6 @@ namespace ExamSoftwareDesign.UI {
                     Console.Write($"warning: {txt}");
                     break;
             }
-            
         }
-
     }
 }

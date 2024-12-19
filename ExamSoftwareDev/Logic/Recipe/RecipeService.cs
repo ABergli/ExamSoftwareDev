@@ -1,6 +1,6 @@
-﻿using ExamSoftwareDesign.Logic.IngredientLogic;
+﻿using ExamSoftwareDev.Logic.Ingredient;
 
-namespace ExamSoftwareDesign.Logic.RecipeServices {
+namespace ExamSoftwareDev.Logic.Recipe {
     internal class RecipeService
     {
         Cookbook book;

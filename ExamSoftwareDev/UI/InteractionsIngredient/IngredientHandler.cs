@@ -1,11 +1,7 @@
-﻿using ExamSoftwareDesign.Logic.IngredientLogic;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using ExamSoftwareDev.Logic.Ingredient;
 
-namespace ExamSoftwareDesign.UI.Ingredients {
+
+namespace ExamSoftwareDev.UI.Ingredients {
     public class IngredientHandler {
         private readonly Refrigerator fridge;
         private readonly ExPrint p;

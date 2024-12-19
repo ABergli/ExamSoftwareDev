@@ -1,9 +1,8 @@
-﻿using ExamSoftwareDesign.Logic.IngredientLogic;
-using ExamSoftwareDesign.Logic.RecipeLogic;
-using ExamSoftwareDesign.Logic.RecipeServices;
+﻿using ExamSoftwareDev.Logic.Ingredient;
+using ExamSoftwareDev.Logic.Recipe;
 
 
-namespace ExamSoftwareDesign.UI.RecipeUI {
+namespace ExamSoftwareDev.UI.InteractionsRecipe {
     public class RecipeUIHandler
     {
         ExPrint p;

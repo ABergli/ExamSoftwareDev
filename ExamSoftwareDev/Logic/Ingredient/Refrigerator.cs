@@ -1,10 +1,10 @@
-﻿using ExamSoftwareDesign.Storage;
-using ExamSoftwareDesign.UI;
+﻿using ExamSoftwareDev.UI;
 
-namespace ExamSoftwareDesign.Logic.IngredientLogic {
+
+namespace ExamSoftwareDev.Logic.Ingredient {
     public class Refrigerator : IRefrigerator {
         private ExPrint p = new();
-        public string Owner { get; set; }
+        public string? Owner { get; set; } //= "UnknownUser";
         public List<Ingredient> Ingredients { get; set; } = new List<Ingredient>();
         private IngredientService _ingredientService;
 

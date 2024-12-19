@@ -1,7 +1,6 @@
-﻿using ExamSoftwareDesign.Logic.IngredientLogic;
-using ExamSoftwareDesign.Storage;
+﻿using ExamSoftwareDev.Logic.Ingredient;
+using ExamSoftwareDev.Storage;
 using Microsoft.EntityFrameworkCore;
-using NUnit.Framework;
 
 
 // comprehensive testing of the IngredientRepository class

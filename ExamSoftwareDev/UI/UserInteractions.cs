@@ -1,14 +1,10 @@
-﻿using ExamSoftwareDesign.Logic.IngredientLogic;
-using ExamSoftwareDesign.Logic.RecipeLogic;
-using ExamSoftwareDesign.Logic.RecipeServices;
-using ExamSoftwareDesign.Storage;
-using ExamSoftwareDesign.UI;
-using ExamSoftwareDesign.UI.Ingredients;
-using ExamSoftwareDesign.UI.RecipeUI;
-using System;
+﻿using ExamSoftwareDev.Logic.Ingredient;
+using ExamSoftwareDev.Logic.Recipe;
+using ExamSoftwareDev.UI.Ingredients;
+using ExamSoftwareDev.UI.InteractionsRecipe;
 
 
-namespace ExamSoftwareDesign.UI {
+namespace ExamSoftwareDev.UI {
     public class UserInteractions {
         ExPrint p = new();
         string choice = "";

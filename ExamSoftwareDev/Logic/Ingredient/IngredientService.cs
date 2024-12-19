@@ -1,9 +1,7 @@
-﻿using ExamSoftwareDesign.Storage;
-using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using ExamSoftwareDev.Storage;
 
-namespace ExamSoftwareDesign.Logic.IngredientLogic {
+
+namespace ExamSoftwareDev.Logic.Ingredient {
     public class IngredientService {
 
         private readonly IngredientRepository _repository;
@@ -67,8 +65,8 @@ namespace ExamSoftwareDesign.Logic.IngredientLogic {
             var ingredient = _repository.GetAllIngredients()
                                         .FirstOrDefault(i => i.Id == id);
 
-            if (ingredient == null) {
-                return false; // Ingredient not found
+            if (ingredient == null) {// Ingredient not found
+                return false; 
             }
 
             if (!string.IsNullOrEmpty(name)) ingredient.Name = name;

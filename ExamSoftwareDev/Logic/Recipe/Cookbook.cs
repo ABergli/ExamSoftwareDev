@@ -1,6 +1,6 @@
-﻿using ExamSoftwareDesign.Storage;
+﻿using ExamSoftwareDev.Storage;
 
-namespace ExamSoftwareDesign.Logic.RecipeServices {
+namespace ExamSoftwareDev.Logic.Recipe {
     public class Cookbook
     {
         public List<Recipe> CookbookRecipes { get; private set; } = new List<Recipe>();

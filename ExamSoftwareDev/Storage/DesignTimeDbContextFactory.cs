@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
 
-namespace ExamSoftwareDesign.Storage {
+namespace ExamSoftwareDev.Storage {
     public class DesignTimeDbContextFactory : IDesignTimeDbContextFactory<IngredientContext> {
         public IngredientContext CreateDbContext(string[] args) {
             // Set up the options for DbContext

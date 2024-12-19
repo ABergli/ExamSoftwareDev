@@ -1,10 +1,10 @@
-﻿using ExamSoftwareDesign.Logic.IngredientLogic;
-using ExamSoftwareDesign.Logic.RecipeServices;
-using ExamSoftwareDesign.Storage;
-using ExamSoftwareDesign.UI;
+﻿using ExamSoftwareDev.Logic.Ingredient;
+using ExamSoftwareDev.Logic.Recipe;
+using ExamSoftwareDev.Storage;
+using ExamSoftwareDev.UI;
 using Microsoft.EntityFrameworkCore;
 
-namespace ExamSoftwareDesign
+namespace ExamSoftwareDev
 {
     internal class Program {
         static void Main(string[] args) {

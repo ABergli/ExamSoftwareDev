@@ -1,4 +1,4 @@
-﻿namespace ExamSoftwareDesign.Logic.IngredientLogic {
+﻿namespace ExamSoftwareDev.Logic.Ingredient {
     public enum IngredientCategory {
         Other,
         Produce,
@@ -34,9 +34,6 @@
 
         public override string ToString() {
             return $"Ingredient: {Id}/ {Name}/ {Category}/ {Amount}/ {Unit}\n";
-
         }
     }
-
-
 }

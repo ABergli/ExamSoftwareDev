@@ -1,156 +1,156 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="ExamSoftwareDesign.Logic.IngredientLogic.Ingredient" Collapsed="true">
-    <Position X="10.5" Y="0.5" Width="1.5" />
+  <Class Name="ExamSoftwareDev.Logic.Ingredient.Ingredient" Collapsed="true">
+    <Position X="19.25" Y="2" Width="2" />
     <TypeIdentifier>
       <HashCode>AAACAAAAAAAAAAAEIAAAAASAAAAAAAAAAAAAAAAACAA=</HashCode>
       <FileName>Logic\Ingredient\Ingredient.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="ExamSoftwareDesign.Logic.IngredientLogic.IngredientService" Collapsed="true">
-    <Position X="10.5" Y="1.5" Width="1.5" />
+  <Class Name="ExamSoftwareDev.Logic.Ingredient.IngredientService" Collapsed="true">
+    <Position X="20" Y="4" Width="2" />
     <TypeIdentifier>
       <HashCode>AAAAAAEAAABEAABAAAAAAAAAAAAQAAAABAAAAAAgAAA=</HashCode>
       <FileName>Logic\Ingredient\IngredientService.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="ExamSoftwareDesign.Logic.IngredientLogic.Refrigerator" Collapsed="true" BaseTypeListCollapsed="true">
-    <Position X="8.75" Y="3.5" Width="1.5" />
+  <Class Name="ExamSoftwareDev.Logic.Ingredient.Refrigerator" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="18.75" Y="1.5" Width="1.25" />
     <TypeIdentifier>
       <HashCode>AAAAAACAAAAAIABEAAAAACAAAAAAABAABEAgAAAgQAA=</HashCode>
       <FileName>Logic\Ingredient\Refrigerator.cs</FileName>
     </TypeIdentifier>
-    <Lollipop Position="0.2" Collapsed="true" />
+    <Lollipop Orientation="Left" Position="0.362" />
   </Class>
-  <Class Name="ExamSoftwareDesign.Logic.RecipeServices.Cookbook" Collapsed="true">
-    <Position X="3.5" Y="0.5" Width="1.5" />
+  <Class Name="ExamSoftwareDev.Logic.Recipe.Cookbook" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="2" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAACAAAAAAAEAAAAgCAAAAEAAAAAAABAAAA=</HashCode>
       <FileName>Logic\Recipe\Cookbook.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="ExamSoftwareDesign.Logic.RecipeServices.Recipe" Collapsed="true">
-    <Position X="8.75" Y="2.5" Width="1.5" />
+  <Class Name="ExamSoftwareDev.Logic.Recipe.Recipe" Collapsed="true">
+    <Position X="0.75" Y="2.75" Width="2" />
     <TypeIdentifier>
       <HashCode>AAABAAAAAAAAAEAEAAAAACAAAAAAAAAAAAAAQAAAAAA=</HashCode>
       <FileName>Logic\Recipe\Recipe.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="ExamSoftwareDesign.Logic.RecipeServices.RecipeIngredient" Collapsed="true">
-    <Position X="10.5" Y="2.5" Width="1.5" />
+  <Class Name="ExamSoftwareDev.Logic.Recipe.RecipeIngredient" Collapsed="true">
+    <Position X="3" Y="3.5" Width="2" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAEJIAAQASAAAAAAAAAIAAAAAAAAAQ=</HashCode>
       <FileName>Logic\Recipe\Recipe.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="ExamSoftwareDesign.Logic.RecipeServices.RecipeService" Collapsed="true">
-    <Position X="5.25" Y="3.5" Width="1.5" />
+  <Class Name="ExamSoftwareDev.Logic.Recipe.RecipeService" Collapsed="true">
+    <Position X="1.25" Y="5.5" Width="2" />
     <TypeIdentifier>
       <HashCode>AAAAAEAAAAAAMIABAgAAQAAAAAAAAAAABAIACAAAYAg=</HashCode>
       <FileName>Logic\Recipe\RecipeService.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="ExamSoftwareDesign.Logic.RecipeLogic.CreateRecipeService" Collapsed="true">
-    <Position X="5.25" Y="0.5" Width="1.5" />
+  <Class Name="ExamSoftwareDev.Logic.Recipe.CreateRecipeService" Collapsed="true">
+    <Position X="5" Y="2.5" Width="2" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAIAAAAAAAQAAEAAAAAAAAAAAJABAAAAA=</HashCode>
       <FileName>Logic\Recipe\RecipeCreator.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="ExamSoftwareDev.Migrations.InitialCreate" Collapsed="true">
-    <Position X="3.5" Y="2.5" Width="1.5" />
+    <Position X="8.25" Y="5.5" Width="2" />
     <TypeIdentifier>
       <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAI=</HashCode>
       <FileName>Migrations\20241219114320_InitialCreate.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="ExamSoftwareDev.Migrations.IngredientContextModelSnapshot" Collapsed="true">
-    <Position X="5.25" Y="1.5" Width="1.5" />
+    <Position X="11.5" Y="4.25" Width="2" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
       <FileName>Migrations\IngredientContextModelSnapshot.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="ExamSoftwareDesign.Storage.DesignTimeDbContextFactory" Collapsed="true" BaseTypeListCollapsed="true">
-    <Position X="7" Y="0.5" Width="1.5" />
+  <Class Name="ExamSoftwareDev.Storage.DesignTimeDbContextFactory" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.75" Y="5" Width="2.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Storage\DesignTimeDbContextFactory.cs</FileName>
     </TypeIdentifier>
-    <Lollipop Position="0.2" Collapsed="true" />
+    <Lollipop Position="1.262" Collapsed="true" />
   </Class>
-  <Class Name="ExamSoftwareDesign.Storage.IngredientContext" Collapsed="true">
-    <Position X="3.5" Y="1.5" Width="1.5" />
+  <Class Name="ExamSoftwareDev.Storage.IngredientContext" Collapsed="true">
+    <Position X="13.5" Y="3.25" Width="2" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAACAAEAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Storage\IngredientContext.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="ExamSoftwareDesign.Storage.IngredientRepository" Collapsed="true">
-    <Position X="8.75" Y="1.5" Width="1.5" />
+  <Class Name="ExamSoftwareDev.Storage.IngredientRepository" Collapsed="true">
+    <Position X="15.25" Y="5.25" Width="2" />
     <TypeIdentifier>
       <HashCode>AAAgAAEAAABAJABAAAAAAAAAAAAQAAAABAAAAAAgAAA=</HashCode>
       <FileName>Storage\IngredientRepository.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="ExamSoftwareDesign.Storage.Loader" Collapsed="true">
-    <Position X="5.25" Y="2.5" Width="1.5" />
+  <Class Name="ExamSoftwareDev.Storage.Loader" Collapsed="true">
+    <Position X="11.25" Y="5.25" Width="2" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAEAAAAAAABA=</HashCode>
       <FileName>Storage\Loader.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="ExamSoftwareDesign.Storage.RecipeRepository" Collapsed="true">
-    <Position X="3.5" Y="3.5" Width="1.5" />
+  <Class Name="ExamSoftwareDev.Storage.RecipeRepository" Collapsed="true">
+    <Position X="0.75" Y="4.75" Width="2" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAABAAAAAAAAAAAAgGAAAAAAAAAAAAA=</HashCode>
       <FileName>Storage\RecipeRepository.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="ExamSoftwareDesign.UI.Ingredients.IngredientHandler" Collapsed="true">
-    <Position X="7" Y="1.5" Width="1.5" />
+  <Class Name="ExamSoftwareDev.UI.Ingredients.IngredientHandler" Collapsed="true">
+    <Position X="17.5" Y="4.25" Width="2" />
     <TypeIdentifier>
       <HashCode>AQAAAAAAAAAAIIAAAAAAAAAAAAAQAAACBEAAEAAAAAA=</HashCode>
       <FileName>UI\Ingredient\IngredientHandler.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="ExamSoftwareDesign.UI.RecipeUI.RecipeUIHandler" Collapsed="true">
-    <Position X="7" Y="3.5" Width="1.5" />
+  <Class Name="ExamSoftwareDev.UI.InteractionsRecipe.RecipeUIHandler" Collapsed="true">
+    <Position X="0.5" Y="4" Width="2" />
     <TypeIdentifier>
       <HashCode>AAAAAIBAACAAKIBAgAACQRAEAAcABAAIAEQAFAAhYAg=</HashCode>
       <FileName>UI\Recipe\RecipeUIHandler.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="ExamSoftwareDesign.UI.ExPrint" Collapsed="true">
-    <Position X="8.75" Y="0.5" Width="1.5" />
+  <Class Name="ExamSoftwareDev.UI.ExPrint" Collapsed="true">
+    <Position X="11" Y="2" Width="2" />
     <TypeIdentifier>
       <HashCode>AAQAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>UI\ExPrint.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="ExamSoftwareDesign.UI.UserInteractions" Collapsed="true">
-    <Position X="10.5" Y="3.5" Width="1.5" />
+  <Class Name="ExamSoftwareDev.UI.UserInteractions" Collapsed="true">
+    <Position X="14" Y="0.5" Width="1.75" />
     <TypeIdentifier>
       <HashCode>AAAAAAAEAAAAAIAAAAAAQAAIAAAFAAAAAEAAAACAAAI=</HashCode>
       <FileName>UI\UserInteractions.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="ExamSoftwareDesign.Program" Collapsed="true">
-    <Position X="7" Y="2.5" Width="1.5" />
+  <Class Name="ExamSoftwareDev.Program" Collapsed="true">
+    <Position X="11.25" Y="0.5" Width="2" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
       <FileName>Program.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Interface Name="ExamSoftwareDesign.Logic.IngredientLogic.IRefrigerator" Collapsed="true">
-    <Position X="3.5" Y="4.75" Width="1.5" />
+  <Interface Name="ExamSoftwareDev.Logic.Ingredient.IRefrigerator" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="2" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAIABAAAAAAAAAAAAAABAABAAAAAAgQAA=</HashCode>
       <FileName>Logic\Ingredient\IRefrigerator.cs</FileName>
     </TypeIdentifier>
   </Interface>
-  <Enum Name="ExamSoftwareDesign.Logic.IngredientLogic.IngredientCategory" Collapsed="true">
-    <Position X="3.5" Y="5.75" Width="1.5" />
+  <Enum Name="ExamSoftwareDev.Logic.Ingredient.IngredientCategory" Collapsed="true">
+    <Position X="21.25" Y="2" Width="2" />
     <TypeIdentifier>
       <HashCode>BAAAACABAAAAAAAAAAAAEAAAAAAQAAAAAAAAAAAAAQA=</HashCode>
       <FileName>Logic\Ingredient\Ingredient.cs</FileName>

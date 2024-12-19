@@ -1,6 +1,5 @@
-﻿using ExamSoftwareDesign.Logic.RecipeServices;
-
-namespace ExamSoftwareDesign.Logic.RecipeLogic {
+﻿
+namespace ExamSoftwareDev.Logic.Recipe {
     internal class CreateRecipeService
     {
         private readonly Cookbook book;

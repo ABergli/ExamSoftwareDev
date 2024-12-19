@@ -1,4 +1,4 @@
-﻿namespace ExamSoftwareDesign.Logic.RecipeServices {
+﻿namespace ExamSoftwareDev.Logic.Recipe {
     public class Recipe {
         public string Title { get; set; }
         public string Link { get; set; }

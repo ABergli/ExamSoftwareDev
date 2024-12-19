@@ -1,7 +1,6 @@
 ﻿
 
-
-namespace ExamSoftwareDesign.Logic.IngredientLogic {
+namespace ExamSoftwareDev.Logic.Ingredient {
     public interface IRefrigerator {
         void AddIngredient(string name, string category, double amount, string unit);
         void RemoveIngredient(int id);

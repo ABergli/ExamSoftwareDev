@@ -1,7 +1,7 @@
 ﻿using System.Text.Json;
-using ExamSoftwareDesign.Logic.RecipeServices;
+using ExamSoftwareDev.Logic.Recipe;
 
-namespace ExamSoftwareDesign.Storage {
+namespace ExamSoftwareDev.Storage {
     internal class RecipeRepository
     {
         private readonly Loader loader;

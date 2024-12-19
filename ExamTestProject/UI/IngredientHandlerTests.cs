@@ -1,8 +1,6 @@
-﻿
-using ExamSoftwareDesign.UI.Ingredients;
-using ExamSoftwareDesign.UI;
-using ExamSoftwareDesign.Logic.IngredientLogic;
-using NUnit.Framework;
+﻿using ExamSoftwareDev.UI.Ingredients;
+using ExamSoftwareDev.UI;
+using ExamSoftwareDev.Logic.Ingredient;
 
 
 namespace ExamTestProject.UI {

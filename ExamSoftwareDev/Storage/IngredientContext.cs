@@ -1,9 +1,8 @@
-﻿using ExamSoftwareDesign.Logic.IngredientLogic;
+﻿using ExamSoftwareDev.Logic.Ingredient;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.VisualBasic;
-using System.Reflection.Emit;
 
-namespace ExamSoftwareDesign.Storage {
+
+namespace ExamSoftwareDev.Storage {
     //The IngredientContext acts as the data access layer.
     //It is responsible for interacting with the SQLite database
     //it represents the bridge between the application's domain objects (Ingredient) and the database

@@ -1,11 +1,9 @@
-﻿using ExamSoftwareDesign.Logic.IngredientLogic;
-using ExamSoftwareDesign.Logic.RecipeServices;
-using ExamSoftwareDesign.UI;
-using ExamSoftwareDesign.Storage;
+﻿using ExamSoftwareDev.Logic.Ingredient;
+using ExamSoftwareDev.Logic.Recipe;
+using ExamSoftwareDev.UI;
+using ExamSoftwareDev.Storage;
 using Microsoft.EntityFrameworkCore;
-using ExamSoftwareDesign.UI.Ingredients;
-using NUnit.Framework;
-
+using ExamSoftwareDev.UI.Ingredients;
 
 
 namespace ExamTestProject.UI.Tests {
