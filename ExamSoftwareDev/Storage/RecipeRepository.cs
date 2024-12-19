@@ -1,0 +1,48 @@
+﻿using System.Text.Json;
+using ExamSoftwareDesign.Logic.RecipeServices;
+
+namespace ExamSoftwareDesign.Storage {
+    internal class RecipeRepository
+    {
+        private readonly Loader loader;
+        private readonly string filePath;
+
+        public RecipeRepository()
+        {
+            loader = new Loader();
+            filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Storage", "Data", "recipes_bbc.json");
+        }
+
+        // Load recipes
+        public List<Recipe> LoadRecipes()
+        {
+            try
+            {
+                if (!File.Exists(filePath))
+                {
+                    return new List<Recipe>();
+                }
+
+                return loader.LoadRecipe();
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("An error occurred while loading recipes.", ex);
+            }
+        }
+
+        // Save recipes
+        public void SaveRecipes(List<Recipe> recipes)
+        {
+            try
+            {
+                string jsonCookbook = JsonSerializer.Serialize(recipes, new JsonSerializerOptions { WriteIndented = true });
+                File.WriteAllText(filePath, jsonCookbook);
+            }
+            catch (Exception ex) 
+            {
+                throw new Exception("An error occurred while saving recipes.", ex);
+            }
+        }
+    }
+}

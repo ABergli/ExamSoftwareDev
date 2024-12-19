@@ -1,0 +1,64 @@
+[
+    {
+        "link": "https://www.bbcgoodfood.com/recipes/smoked-mackerel-leek-hash-horseradish",
+        "title": "Smoked mackerel & leek hash with horseradish",
+        "ingredients": [
+            { "amount": 250, "unit": "g", "name": "new potatoes", "extras": "halved" },
+            { "amount": 2, "unit": "tbsp", "name": "oil" },
+            { "amount": 2, "unit": "large", "name": "leeks", "extras": "thinly sliced" },
+            { "amount": 100, "unit": "g", "name": "peppered smoked mackerel", "extras": "skin removed" },
+            { "amount": 4, "unit": "normal", "name": "eggs" },
+            { "amount": 2, "unit": "tbsp", "name": "creamed horseradish", "extras": "optional" }
+        ],
+        "steps": [
+            "Put the potatoes in a microwaveable bowl with a splash of water, cover, then cook on high for 5 mins until tender (or steam or simmer them).",
+            "Meanwhile, heat the oil in a frying pan over a medium heat, add the leeks with a pinch of salt and cook for 10 mins, stirring so they don’t stick, until softened. Tip in the potatoes, turn up the heat and fry for a couple of mins to crisp them up a bit. Flake through the mackerel.",
+            "Make four indents in the leek mixture in the pan, crack an egg into each, season, then cover the pan and cook for 6-8 mins until the whites have set and the yolks are runny. Serve the horseradish on the side, with the pan in the middle of the table."
+        ]
+    },
+    {
+        "link": "https://www.bbcgoodfood.com/recipes/gnocchi-cacio-e-pepe",
+        "title": "Gnocchi cacio e pepe",
+        "ingredients": [
+            { "amount": 300, "unit": "g", "name": "gnocchi" },
+            { "amount": 2, "unit": "tbsp", "name": "unsalted butter" },
+            { "amount": 60, "unit": "g", "name": "parmesan", "extras": "or vegetarian alternative, finely grated" },
+            { "amount": 2, "unit": "tsp", "name": "black pepper" }
+        ],
+        "steps": [
+            "Cook the gnocchi in a large pan of lightly salted, boiling water. Drain and reserve 200ml of the cooking water.",
+            "Heat the butter in a large frying pan. Add the gnocchi, cheese, and pepper as well as 150ml of the cooking water, raise the heat a little and stir vigorously until melted and the gnocchi is well coated. Pour in more of the reserved water if you like it saucier. Season with a little salt. Transfer the gnocchi to bowls and serve with a mixed salad, if you like."
+        ]
+    },
+    {
+        "link": "https://www.bbcgoodfood.com/recipes/creamy-pesto-kale-pasta",
+        "title": "Creamy pesto & kale pasta",
+        "ingredients": [
+            { "amount": 1, "unit": "tbsp", "name": "rapeseed oil" },
+            { "amount": 2, "unit": "units", "name": "red onions", "extras": "thinly sliced" },
+            { "amount": 300, "unit": "g", "name": "kale" },
+            { "amount": 300, "unit": "g", "name": "wholemeal pasta", "extras": "penne or mafalda work well" },
+            { "amount": 4, "unit": "tbsp", "name": "soft cheese" },
+            { "amount": 4, "unit": "tbsp", "name": "pesto", "extras": " fresh or jar, vegetarian alternative" }
+        ],
+        "steps": [
+            "Heat the oil in a large pan over a medium heat. Fry the onions for 10 mins until softened and beginning to caramelise. Add the kale and 100ml water, then cover and cook for 5 mins more, or until the kale has wilted.",
+            "Cook the pasta following pack instructions. Drain, reserving a little of the cooking water. Toss the pasta with the onion mixture, soft cheese, and pesto, adding a splash of the reserved cooking water to loosen, if needed. Season."
+        ]
+    },
+    {
+        "link": "https://www.bbcgoodfood.com/recipes/swedish-smoked-salmon-spinach-gratin",
+        "title": "Smoked salmon & spinach gratin",
+        "ingredients": [
+            { "amount": 1.2, "unit": "kg", "name": "spinach" },
+            { "amount": 15, "unit": "g", "name": "butter" },
+            { "amount": 6, "unit": "fillets", "name": "lightly smoked raw salmon", "extras": "skin removed, about 140g each" },
+            { "amount": 300, "unit": "ml", "name": "double cream" }
+        ],
+        "steps": [
+            "Put the spinach in a really big saucepan (or two saucepans) and add a few tablespoons of water. Cover, set over a medium heat, and cook for about 5-8 mins, turning the spinach over every so often, until wilted. Tip it into a colander to drain and allow it to cool (spread it out on a plate to cool it quicker). Take big handfuls of it in your fists and squeeze out the excess water. It’s really important that you do this, otherwise the water will leach out and make the cream watery and green.",
+            "Chop the spinach. Melt the butter in a saucepan and gently toss the spinach in it. Season with pepper and a tiny bit of salt (there’s so much salt in the salmon). Heat the oven to 160C/140C fan/gas 3. Lay the spinach in the bottom of a gratin dish (about 30cm x 20cm), then arrange the salmon fillets on top.",
+            "Heat the double cream in a small pan, then pour it all over the salmon and spinach. Bake for 35 mins, or until the top is golden and the cream is bubbling."
+        ]
+    }
+]
