@@ -27,7 +27,6 @@ namespace ExamSoftwareDev.Logic.Ingredient {
         public void UpdateExtra(string newExtra) {
             Extra = newExtra;
         }
-
         public override string ToString() {
             return $"{Name} ({Amount} {Unit}) {Extra}";
         }

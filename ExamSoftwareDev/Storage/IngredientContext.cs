@@ -6,11 +6,10 @@ namespace ExamSoftwareDev.Storage {
     //The IngredientContext acts as the data access layer.
     //It is responsible for interacting with the SQLite database
     //it represents the bridge between the application's domain objects (Ingredient) and the database
-    public class IngredientContext : DbContext {
 
+    public class IngredientContext : DbContext {
         public IngredientContext(DbContextOptions<IngredientContext> options) : base(options) { }
         public DbSet<Ingredient> Ingredients { get; set; }
-
         protected override void OnModelCreating(ModelBuilder modelBuilder) {
             // Configure the table and its properties
             modelBuilder.Entity<Ingredient>(entity => {
@@ -20,7 +19,6 @@ namespace ExamSoftwareDev.Storage {
                 entity.Property(i => i.Amount).IsRequired();
                 entity.Property(i => i.Unit).IsRequired();
             });
-
             // Seed the database with some initial data
             modelBuilder.Entity<Ingredient>().HasData(
                 new Ingredient { Id = 1, Name = "New potatoes", Category = IngredientCategory.Produce, Amount = 1000, Unit = "g" },

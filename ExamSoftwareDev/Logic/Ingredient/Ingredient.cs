@@ -11,8 +11,7 @@
     public class Ingredient {
         public int Id { get; set; }
         public string Name { get; set; }
-        public IngredientCategory Category; // e.g. "Produce", "Dairy", "Meat", "Liquids", "Bakery", "Other"
-
+        public IngredientCategory Category; //enums
         public double Amount { get; set; } // e.g. 100, 250, 1.5
         public string Unit { get; set; } // e.g. "g", "ml", "tbsp"
 
@@ -31,7 +30,6 @@
             Amount = a;
             Unit = u;
         }
-
         public override string ToString() {
             return $"Ingredient: {Id}/ {Name}/ {Category}/ {Amount}/ {Unit}\n";
         }
