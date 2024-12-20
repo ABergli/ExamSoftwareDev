@@ -534,7 +534,7 @@ namespace ExamSoftwareDev.UI.InteractionsRecipe {
                 p.print("\nAll required ingredients are available!", "green");
             }
 
-            p.print("\nDo you want to proceed with making this dish anyway? (Y/n):", "white");
+            p.print("\nDo you want to proceed with making this dish? (Y/n):", "white");
             string confirmation = Console.ReadLine()?.Trim();
 
             if (confirmation?.Equals("Y", StringComparison.OrdinalIgnoreCase) == true
