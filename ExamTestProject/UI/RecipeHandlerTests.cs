@@ -18,11 +18,10 @@ namespace ExamTestProject.UI
         [SetUp]
         public void SetUp()
         {
-            // Redirect Console output for testing
             _stringWriter = new StringWriter();
             Console.SetOut(_stringWriter);
 
-            // Mock Refrigerator with dummy ingredients
+            // Mock Refrigerator
             _fridge = new Refrigerator();
             _fridge.Ingredients = new List<Ingredient>
             {
@@ -30,23 +29,22 @@ namespace ExamTestProject.UI
                 new Ingredient { Id = 2, Name = "Ingredient2", Unit = "cups", Amount = 50, Category = IngredientCategory.Spices }
             };
 
-            // Mock Recipe with required ingredients
+            // Mock Recipe
             _recipe = new Recipe
             {
                 Title = "Recipe1",
                 Ingredients = new List<RecipeIngredient>
                 {
-                    new RecipeIngredient(50, "grams", "Ingredient1", ""), // Provide required constructor arguments
-                    new RecipeIngredient(25, "cups", "Ingredient2", "")  // Provide required constructor arguments
+                    new RecipeIngredient(50, "grams", "Ingredient1", ""),
+                    new RecipeIngredient(25, "cups", "Ingredient2", "")
                 },
                 Steps = new List<string> { "Step1", "Step2" }
             };
         }
 
         [Test]
-        public void DeductIngredients_CorrectlyDeductsIngredients()
+        public void DeductIngredients_Test()
         {
-            // Redirect Console input for user prompts
             _stringReader = new StringReader("50\n25\n");
             Console.SetIn(_stringReader);
 
@@ -78,8 +76,8 @@ namespace ExamTestProject.UI
             Assert.That(output, Does.Contain("Used 25 cups of 'Ingredient2'"));
 
             // Assert Refrigerator state
-            Assert.That(_fridge.Ingredients[0].Amount, Is.EqualTo(50)); // Remaining: 100 - 50
-            Assert.That(_fridge.Ingredients[1].Amount, Is.EqualTo(25)); // Remaining: 50 - 25
+            Assert.That(_fridge.Ingredients[0].Amount, Is.EqualTo(50));
+            Assert.That(_fridge.Ingredients[1].Amount, Is.EqualTo(25));
         }
 
         [TearDown]
